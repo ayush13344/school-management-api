@@ -4,7 +4,7 @@ const cors = require("cors");
 
 dotenv.config();
 
-const schoolRoutes = require("./routes/schoolRoutes");
+const schoolRoutes = require("./routes/SchoolRoutes");
 
 const app = express();
 
