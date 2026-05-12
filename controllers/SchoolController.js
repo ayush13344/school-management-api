@@ -1,7 +1,7 @@
 const db = require("../config/db");
 
 
-// Add School API
+
 const addSchool = async (req, res) => {
   try {
     const { name, address, latitude, longitude } = req.body;
@@ -56,7 +56,7 @@ const addSchool = async (req, res) => {
 };
 
 
-// Distance Formula
+
 const calculateDistance = (
   lat1,
   lon1,
